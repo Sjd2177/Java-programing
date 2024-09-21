@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class q1{
+    public static void main(String[] arges){
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter a degree in Celsius:");
+        double celsius = sc.nextDouble();
+        double fahrenherit = (celsius*9.8/5)*32;
+        System.out.println(celsius+"Celsius is"+fahrenherit+"Faherenher");
+    }
+}
